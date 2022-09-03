@@ -1,0 +1,27 @@
+.category {
+  background: var(--color-bg2);
+  padding: 32px;
+  border-radius: 32px;
+  transition: var(--transition);
+}
+
+.category:hover {
+  box-shadow: 0 48px 48px rgba(0, 0, 0, 0.3);
+}
+
+.category__icon {
+  background: var(--color-primary);
+  border-radius: 14px;
+  padding: 11px;
+}
+
+.category h5 {
+  margin: 32px 0 16px;
+  font-size: 14px;
+  font-family: "IrenSansBold";
+}
+
+.category p {
+  font-size: 13px;
+  font-family: "IrenSansRegular";
+}

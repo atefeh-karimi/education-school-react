@@ -1,0 +1,28 @@
+.categories {
+  background: var(--color-bg1);
+  height: 512px;
+}
+
+.categories h1 {
+  line-height: 1;
+  margin-bottom: 48px;
+}
+
+.categories__container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.categories__left {
+  margin-left: 64px;
+}
+
+.categories__left p {
+  margin: 16px 0 48px;
+}
+
+.categories__right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
+}
