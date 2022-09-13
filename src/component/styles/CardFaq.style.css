@@ -1,0 +1,29 @@
+.faq {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  height: fit-content;
+  background: var(--color-primary);
+  cursor: pointer;
+  font-family: "IranSansRegular";
+}
+
+.faq h4 {
+  font-size: 14px;
+  font-family: "IranSansBold";
+}
+
+.faq__icon {
+  align-self: flex-start;
+  font-size: 19px;
+}
+
+.faq p {
+  margin-top: 12px;
+  display: none;
+}
+
+.open p {
+  display: block;
+}

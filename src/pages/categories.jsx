@@ -1,6 +1,6 @@
 import React from "react";
 import { Btn } from "../component/btn";
-import CardCategory from "../component/cardCategory";
+import CardCategory from "../component/CardCategory";
 import { content } from "../categoryContent";
 import "./categoriesStyle.css";
 

@@ -65,6 +65,7 @@ section {
 section h2 {
   text-align: center;
   margin-bottom: 64px;
+  font-family: "IrenSansDemiBold";
 }
 
 h1,
@@ -73,6 +74,7 @@ h3,
 h4,
 h5 {
   line-height: 1.2;
+  font-family: "iransansRegular";
 }
 
 h1 {

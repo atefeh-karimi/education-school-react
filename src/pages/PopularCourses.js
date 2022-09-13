@@ -1,13 +1,13 @@
 import React from "react";
-import CardCourse from "../component/CardCourse";
 import { content } from "../courseContent";
-import "./coursesStyle.css";
+import CardCourse from "../component/CardCourse";
 
-function Courses() {
+function PopularCourses() {
   return (
-    <section className="courses mt-0">
+    <section className="courses">
+      <h2>آموزش های پرمخاطب </h2>
       <div className="container courses__container">
-        {content.map((c) => {
+        {content.slice(0, 3).map((c) => {
           return (
             <CardCourse key={c.id} title={c.title} body={c.body} url={c.img} />
           );
@@ -17,4 +17,4 @@ function Courses() {
   );
 }
 
-export default Courses;
+export default PopularCourses;

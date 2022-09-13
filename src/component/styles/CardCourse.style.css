@@ -1,0 +1,24 @@
+.course {
+  background: var(--color-bg1);
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+.course:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+.course__info {
+  padding: 32px;
+}
+
+.course__info p {
+  margin: 19px;
+  font-size: 14px;
+  font-family: "iransansRegular";
+}
+
+h4 {
+  font-family: "iransansBold";
+}
