@@ -1,36 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
+import { FaPlus, FaMinus } from "react-icons/fa";
 import "./styles/CardFaq.style.css";
 
-function CardFaq() {
-  /* show/hide faq answer */
+function CardFaq({ title, body }) {
+  const [icon, setIcon] = useState();
+  const [isOpen, setIsOpen] = useState(false);
 
-  const faqs = document.querySelectorAll(".faq");
-  faqs.forEach((faq) => {
-    faq.addEventListener("click", () => {
-      faq.classList.toggle("open");
-
-      //change icon
-      const icon = faq.querySelector(".faq__icon i");
-      if (icon.className === "fas fa-plus") {
-        icon.className = "fas fa-minus";
-      } else {
-        icon.className = "fas fa-plus";
-      }
-    });
-  });
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+    setIcon(!icon);
+  };
 
   return (
-    <article className="faq">
+    <article className="faq" onClick={handleClick}>
       <div className="faq__icon">
-        <i className="fas fa-plus"></i>
+        <small>{icon ? <FaMinus /> : <FaPlus />}</small>
       </div>
       <div className="question__answer">
-        <h4>چگونه می توان آموزش موردنظر خود را تهیه نمود؟</h4>
-        <p>
-          لورم با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
-          است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
-          است.
-        </p>
+        <h4>{title}</h4>
+        {isOpen && <p>{body}</p>}
       </div>
     </article>
   );

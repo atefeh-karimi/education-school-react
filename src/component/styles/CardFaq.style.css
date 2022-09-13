@@ -1,7 +1,7 @@
 .faq {
   padding: 32px;
   display: flex;
-  align-items: center;
+  align-items: end;
   gap: 22px;
   height: fit-content;
   background: var(--color-primary);
@@ -21,9 +21,4 @@
 
 .faq p {
   margin-top: 12px;
-  display: none;
-}
-
-.open p {
-  display: block;
 }
