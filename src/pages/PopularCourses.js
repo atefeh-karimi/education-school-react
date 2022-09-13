@@ -1,5 +1,5 @@
 import React from "react";
-import { content } from "../courseContent";
+import { content } from "../content/courseContent";
 import CardCourse from "../component/CardCourse";
 
 function PopularCourses() {
