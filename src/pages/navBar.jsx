@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Logo from "../component/Logo";
 import MenuBtn from "../component/menuBtn";
 import "./navBarStyle.css";
 
@@ -10,14 +11,12 @@ function NavBar() {
       .querySelector("nav")
       .classList.toggle("window-scroll", window.scrollY > 0);
   });
+
   return (
     <nav>
       <div className="container nav__container">
-        <Link className="linkStyle" to="/Home">
-          <h4>
-            AT<small className="text-danger">web</small>
-          </h4>
-        </Link>
+        <Logo />
+
         <ul className="nav__menu">
           <li>
             <Link className="linkStyle" to="/">

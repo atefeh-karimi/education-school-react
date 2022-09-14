@@ -74,7 +74,7 @@ h3,
 h4,
 h5 {
   line-height: 1.2;
-  font-family: "iransansRegular";
+  
 }
 
 h1 {
