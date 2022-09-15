@@ -1,6 +1,6 @@
 import React from "react";
-import CardFaq from "../component/CardFaq";
-import { content } from "../content/faqContent";
+import CardFaq from "../../component/CardFaq";
+import { content } from "../../content/faqContent";
 import "./faqsStyle.css";
 
 function Faqs() {

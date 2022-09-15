@@ -1,0 +1,32 @@
+.team__member-info {
+  text-align: center;
+  margin-top: 16px;
+  line-height: 2.5;
+}
+
+.team__member-socials {
+  text-align: center;
+}
+
+.team__member-socials a {
+  font-size: 24px;
+  padding: 5px;
+  transition: var(--transition);
+}
+
+.team__member-socials a:hover {
+  color: var(--color-danger);
+}
+
+.team__member {
+  background: var(--color-bg2);
+  padding: 24px;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.team__member:hover {
+  box-shadow: 0 48px 48px rgba(0, 0, 0, 0.3);
+  background: transparent;
+  border-color: var(--color-bg2);
+}

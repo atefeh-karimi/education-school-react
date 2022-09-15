@@ -1,5 +1,6 @@
 import React from "react";
-import Home from "./pages/home";
+import Home from "./pages/Home/home";
+import Footer from "./pages/Footer";
 import Courses from "./pages/courses";
 import Contact from "./pages/contact";
 import About from "./pages/about";
@@ -24,6 +25,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

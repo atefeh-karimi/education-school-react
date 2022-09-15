@@ -1,5 +1,5 @@
 import React from "react";
-import { Btn } from "../component/btn";
+import { Btn } from "../../component/btn";
 import "./headerStyle.css";
 
 function Header() {

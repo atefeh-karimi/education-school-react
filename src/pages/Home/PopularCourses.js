@@ -1,6 +1,6 @@
 import React from "react";
-import { content } from "../content/courseContent";
-import CardCourse from "../component/CardCourse";
+import { content } from "../../content/courseContent";
+import CardCourse from "../../component/CardCourse";
 
 function PopularCourses() {
   return (
