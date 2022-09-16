@@ -7,7 +7,7 @@ export const DynamicFaIcon = ({ name }) => {
 
   if (!IconComponent) {
     // Return a default one
-    return <Icons.FaBeer />;
+    return;
   }
 
   return <IconComponent />;

@@ -1,7 +1,7 @@
 import React from "react";
-import { Btn } from "../component/btn";
-import CardCategory from "../component/CardCategory";
-import { content } from "../content/categoryContent";
+import { Btn } from "../../component/btn";
+import CardCategory from "../../component/CardCategory";
+import { content } from "../../content/categoryContent";
 import "./categoriesStyle.css";
 
 function categories() {

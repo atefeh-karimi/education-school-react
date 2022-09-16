@@ -21,7 +21,7 @@ function Footer() {
 
         <List titleList="حریم خصوصی " data={privacy} />
         <div>
-          <List titleList="تماس باما" data={contact} />
+          <List titleList="تماس باما" data={contact} className="ltr" />
           <SocialIcons />
         </div>
       </div>

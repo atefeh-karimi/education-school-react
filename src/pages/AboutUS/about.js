@@ -1,7 +1,7 @@
 import React from "react";
-import CardAchievemet from "../component/CardAchievemet";
-import Teacher from "../component/Teacher";
-import { TeachersInfo } from "../content/TeachersInfo";
+import CardAchievemet from "../../component/CardAchievemet";
+import Teacher from "../../component/Teacher";
+import { TeachersInfo } from "../../content/TeachersInfo";
 import "./aboutStyle.css";
 
 function About() {

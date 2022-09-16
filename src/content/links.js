@@ -41,10 +41,10 @@ export const privacy = [
 export const contact = [
   {
     id: 1,
-    title: "+۹۸ ۲۱ ۳۶۰۴۸۰۰",
+    title: "۰۹۳۶-۶۴۸۸۴۵۵",
   },
   {
     id: 2,
-    title: "atefehkarimi0922@gmail.com",
+    title: "atefeh.karimi.kia@gmail.com",
   },
 ];

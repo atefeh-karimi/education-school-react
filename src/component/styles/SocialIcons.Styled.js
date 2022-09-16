@@ -4,14 +4,31 @@ export const SocialIconsStyled = styled.ul`
   display: flex;
   gap: 16px;
   margin-top: 32px;
-  font-size: 18px;
 
   li {
     font-size: 28px;
     cursor: pointer;
-    transition: var(--transition);
-    &:hover {
-      color: var(--color-danger);
+    a {
+      background: transparent;
+      transition: var(--transition);
+      &:hover {
+        color: var(--color-danger);
+      }
+    }
+  }
+`;
+export const StyleSocials = styled(SocialIconsStyled)`
+  li {
+    font-size: 14px;
+    a {
+      background: var(--color-bg1);
+      padding: 8px;
+      border-radius: 50%;
+      transition: var(--transition);
+      &:hover {
+        color: white;
+        background: transparent;
+      }
     }
   }
 `;

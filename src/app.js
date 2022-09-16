@@ -1,9 +1,9 @@
 import React from "react";
 import Home from "./pages/Home/home";
 import Footer from "./pages/Footer";
-import Courses from "./pages/courses";
-import Contact from "./pages/contact";
-import About from "./pages/about";
+import Courses from "./pages/Cources/courses";
+import Contact from "./pages/ContactUS/contact";
+import About from "./pages/AboutUS/about";
 import NavBar from "./pages/navBar";
 import NotFound from "./pages/notFound";
 import { Routes, Route } from "react-router-dom";

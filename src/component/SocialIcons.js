@@ -4,15 +4,21 @@ import { FaTwitter, FaPaperPlane, FaInstagram } from "react-icons/fa";
 
 function SocialIcons() {
   return (
-    <SocialIconsStyled>
+    <SocialIconsStyled fs="28px">
       <li>
-        <FaTwitter />
+        <a href="/">
+          <FaTwitter />
+        </a>
       </li>
       <li>
-        <FaPaperPlane />
+        <a href="/">
+          <FaPaperPlane />
+        </a>
       </li>
       <li>
-        <FaInstagram />
+        <a href="/">
+          <FaInstagram />
+        </a>
       </li>
     </SocialIconsStyled>
   );

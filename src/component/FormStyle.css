@@ -1,0 +1,30 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-left: 64px;
+}
+
+.form__fullName {
+  display: flex;
+  gap: 19px;
+}
+
+.contact__form input[type="text"] {
+  width: 50%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--color-bg);
+  color: var(--color-white);
+  font-family: "IranSansRegular";
+}
+
+.contact__form .btn {
+  width: max-content;
+  cursor: pointer;
+  margin-top: 16px;
+}
