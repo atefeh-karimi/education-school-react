@@ -8,13 +8,18 @@ import NavBar from "./pages/navBar";
 import NotFound from "./pages/notFound";
 import { Routes, Route } from "react-router-dom";
 import { GlobalStyle } from "./GlobalStyles";
+import { ThemeProvider } from "styled-components";
 import FontStyles from "./fontStyle";
 
 import "./app.css";
 
+const theme = {
+  mobile: "600px",
+  tablet: "1024px",
+};
 function App() {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       <FontStyles />
       <GlobalStyle />
       <NavBar />
@@ -26,7 +31,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </div>
+    </ThemeProvider>
   );
 }
 

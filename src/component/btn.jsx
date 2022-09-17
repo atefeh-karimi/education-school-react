@@ -14,6 +14,11 @@ export const Btn = styled.button`
     background-color: transparent;
     border-color: white;
   }
+  &:disabled,
+  &[disabled] {
+    color: #ffffff73;
+    background-color: #f758428f;
+  }
 `;
 Btn.defaultProps = {
   theme: {

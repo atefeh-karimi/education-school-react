@@ -8,16 +8,17 @@
 .form__fullName {
   display: flex;
   gap: 19px;
+  justify-content: space-between;
 }
 
 .contact__form input[type="text"] {
-  width: 50%;
+  width: 100%;
 }
 
 input,
 textarea {
   width: 100%;
-  padding: 8px 12px;
+  padding: 8px 22px;
   background: var(--color-bg);
   color: var(--color-white);
   font-family: "IranSansRegular";
