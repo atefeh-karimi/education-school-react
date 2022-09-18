@@ -18,3 +18,30 @@ header {
   margin: 38px 0 16px;
   font-family: "iransansRegular";
 }
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  header {
+    height: 52vh;
+    margin-bottom: 64px;
+  }
+
+  .header__container {
+    gap: 0;
+    padding-bottom: 48px;
+  }
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .header__left p {
+    margin-bottom: 20px;
+  }
+}

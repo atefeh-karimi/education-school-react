@@ -16,6 +16,15 @@ export const SocialIconsStyled = styled.ul`
       }
     }
   }
+  @media (max-width: ${(props) => props.theme.mobile}) {
+    justify-content: center;
+  }
+  li {
+    margin-right: 5px;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
 `;
 export const StyleSocials = styled(SocialIconsStyled)`
   li {

@@ -8,3 +8,15 @@
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .faqs__container {
+    grid-template-columns: 1fr;
+  }
+  .faq {
+    padding: 24px;
+  }
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+}

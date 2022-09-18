@@ -4,7 +4,7 @@ import { FaTwitter, FaPaperPlane, FaInstagram } from "react-icons/fa";
 
 function SocialIcons() {
   return (
-    <SocialIconsStyled fs="28px">
+    <SocialIconsStyled >
       <li>
         <a href="/">
           <FaTwitter />

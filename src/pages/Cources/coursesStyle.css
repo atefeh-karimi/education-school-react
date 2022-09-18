@@ -1,9 +1,24 @@
 .courses {
   margin-top: 160px;
 }
-
 .courses__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+}
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .courses {
+    margin-top: 0;
+  }
+
+  .courses__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  .courses__container {
+    grid-template-columns: 1fr;
+  }
 }

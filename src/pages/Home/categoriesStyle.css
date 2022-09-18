@@ -26,3 +26,30 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 19px;
 }
+
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .categories {
+    height: auto;
+  }
+  .categories__container {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .categories__left {
+    margin-right: 0;
+  }
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  .categories__right {
+    grid-template-columns: 1fr 1fr;
+    gap: 11px;
+  }
+
+  .category {
+    padding: 16px;
+    border-radius: 16px;
+  }
+}

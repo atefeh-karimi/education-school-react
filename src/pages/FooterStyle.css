@@ -26,3 +26,29 @@
 .ltr {
   direction: ltr;
 }
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.ltr {
+  direction: ltr;
+  text-align: right;
+}
+/* =====================MEDIA QUERIES(PHONE)==================== */
+@media screen and (max-width: 600px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .footer__1 p {
+    margin: 0 auto;
+  }
+
+  .ltr {
+    text-align: center;
+  }
+}
