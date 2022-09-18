@@ -29,3 +29,14 @@ textarea {
   cursor: pointer;
   margin-top: 16px;
 }
+.succesMsg {
+  width: 470px;
+  text-align: center;
+}
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .succesMsg {
+    display: block;
+    width: 100%;
+  }
+}

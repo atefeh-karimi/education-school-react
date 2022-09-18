@@ -60,7 +60,7 @@ function Form() {
   return (
     <>
       {isValid && isSubmitted ? (
-        <div className="text-center w-75 ">
+        <div className="succesMsg">
           {" "}
           <div className="alert alert-success" role="alert">
             ارسال فرم با موفقیت انجام شد!

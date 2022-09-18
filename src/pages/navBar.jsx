@@ -10,12 +10,12 @@ import { useRef } from "react";
 
 library.add(faTimes, faBars);
 
-function showMenu() {}
-
 function NavBar() {
+  const [isOpen, setIsOpen] = useState(false);
   const navRef = useRef();
   const showMenu = () => {
     navRef.current.classList.toggle("show-menu");
+    setIsOpen(!isOpen);
   };
   const [scrolled, setScrolled] = useState(false);
 
@@ -62,7 +62,11 @@ function NavBar() {
           </li>
         </ul>
         <button onClick={showMenu}>
-          <FontAwesomeIcon icon="bars" />
+          {isOpen ? (
+            <FontAwesomeIcon icon="bars" />
+          ) : (
+            <FontAwesomeIcon icon="times" />
+          )}
         </button>
       </div>
     </nav>

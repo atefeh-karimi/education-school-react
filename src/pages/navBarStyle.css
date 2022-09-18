@@ -41,6 +41,12 @@ nav button {
 .nav__menu .linkStyle:hover {
   color: var(--color-danger);
 }
+#times {
+  right: 18px;
+  font-size: 29px;
+  top: -53px;
+  position: absolute;
+}
 @media screen and (max-width: 1024px) {
   .nav__menu {
     position: fixed;
