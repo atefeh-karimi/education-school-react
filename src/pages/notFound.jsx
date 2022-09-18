@@ -1,7 +1,12 @@
 import React from "react";
+import "./notFoundStyle.css";
 
 function NotFound() {
-  return <h1>Not Found!</h1>;
+  return (
+    <section className=" NotFaound">
+      <p> صفحه موردنظر یافت نشد!</p>
+    </section>
+  );
 }
 
 export default NotFound;

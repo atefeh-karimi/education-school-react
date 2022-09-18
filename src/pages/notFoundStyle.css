@@ -1,0 +1,30 @@
+.NotFaound {
+  background-image: url("../../public/image/404-pages.jpg");
+  background-color: white;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 80px;
+  padding: 0 30px;
+  height: 600px;
+  position: relative;
+}
+.NotFaound p {
+  font-size: 3rem;
+  color: #322a43;
+  font-family: "IranSansBold";
+  position: absolute;
+  margin-bottom: 0;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* =====================MEDIA QUERIES(TABLET)==================== */
+@media screen and (max-width: 1024px) {
+  .NotFaound {
+    width: auto;
+  }
+  .NotFaound p {
+    font-size: 1.75rem;
+  }
+}
