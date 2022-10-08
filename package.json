@@ -1,6 +1,7 @@
 {
   "name": "myreact-test1",
   "version": "0.1.0",
+  "homepage": "https://atefeh-karimi.github.io/education-school-react",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
@@ -26,7 +27,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "predeploy": "react-scripts build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
