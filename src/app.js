@@ -5,7 +5,7 @@ import Courses from "./pages/Cources/courses";
 import Contact from "./pages/ContactUS/contact";
 import About from "./pages/AboutUS/about";
 import NavBar from "./pages/navBar";
-import NotFound from "./pages/notFound";
+import NotFound from "./pages/NotFound/notFound";
 import { Routes, Route } from "react-router-dom";
 import { GlobalStyle } from "./GlobalStyles";
 import { ThemeProvider } from "styled-components";

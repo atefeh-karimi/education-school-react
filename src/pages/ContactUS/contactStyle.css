@@ -45,8 +45,11 @@
   margin-bottom: 16px;
   font-size: 16px;
   font-family: "IranSansBold";
+  cursor: pointer;
 }
-
+.contact__details li a:hover {
+  color: white;
+}
 .ltr {
   direction: ltr;
 }

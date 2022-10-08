@@ -8,9 +8,7 @@ function Courses() {
     <section className="courses mt-0">
       <div className="container courses__container">
         {content.map((c) => {
-          return (
-            <CardCourse key={c.id} title={c.title} body={c.body} url={c.img} />
-          );
+          return <CardCourse key={c.id} {...c} />;
         })}
       </div>
     </section>

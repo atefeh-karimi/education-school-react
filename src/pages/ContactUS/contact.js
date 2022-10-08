@@ -42,7 +42,9 @@ function Contact() {
               <h6>atefeh.karimi.kia@gmail.com</h6>
             </li>
             <li>
-              <FaMapMarkerAlt />
+              <a href="/">
+                <FaMapMarkerAlt />
+              </a>
               <h6>ایران - تهران</h6>
             </li>
           </ul>

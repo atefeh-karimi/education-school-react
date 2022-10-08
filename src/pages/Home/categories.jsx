@@ -22,14 +22,7 @@ function categories() {
         </div>
         <div className="categories__right">
           {content.map((c) => {
-            return (
-              <CardCategory
-                key={c.id}
-                title={c.title}
-                body={c.body}
-                icon={c.icon}
-              />
-            );
+            return <CardCategory key={c.id} {...c} />;
           })}
         </div>
       </div>

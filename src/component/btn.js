@@ -18,6 +18,7 @@ export const Btn = styled.button`
   &[disabled] {
     color: #ffffff73;
     background-color: #f758428f;
+    border-color: transparent;
   }
 `;
 Btn.defaultProps = {

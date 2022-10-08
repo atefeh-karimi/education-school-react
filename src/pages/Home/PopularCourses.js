@@ -8,9 +8,7 @@ function PopularCourses() {
       <h2>آموزش های پرمخاطب </h2>
       <div className="container courses__container">
         {content.slice(0, 3).map((c) => {
-          return (
-            <CardCourse key={c.id} title={c.title} body={c.body} url={c.img} />
-          );
+          return <CardCourse key={c.id} {...c} />;
         })}
       </div>
     </section>

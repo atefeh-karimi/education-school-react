@@ -7,7 +7,7 @@ function List({ data, titleList }) {
       <h4 className="text-white fw-bold">{titleList}</h4>
       <ul>
         {data.map((c) => {
-          return <ListItems key={c.id} title={c.title} url={c.url} />;
+          return <ListItems key={c.id} {...c} />;
         })}
       </ul>
     </div>

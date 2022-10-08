@@ -4,7 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
 import { Btn } from "./btn";
-import "./FormStyle.css";
+import "./styles/FormStyle.css";
 
 function Form() {
   const theme = {

@@ -31,16 +31,20 @@ export const GlobalStyle = createGlobalStyle`
   --transition: all 400ms ease;
 }
 
+
   body {
   font-family: 'iransansRegular';
   line-height: 1.7;
   color: var(--color-white);
   background: var(--color-bg);
   direction: rtl;
+   user-select:none
+
 }
 a {
   text-decoration: none;
    color: var(--color-white);
+    
 }
 
 .linkStyle {

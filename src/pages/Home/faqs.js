@@ -9,7 +9,7 @@ function Faqs() {
       <h2>سوالات متداول</h2>
       <div className="container faqs__container">
         {content.map((c) => {
-          return <CardFaq key={c.id} title={c.title} body={c.body} />;
+          return <CardFaq key={c.id} {...c} />;
         })}
       </div>
     </section>

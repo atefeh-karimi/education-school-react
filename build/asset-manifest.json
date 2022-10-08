@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/education-scholl-react/static/css/main.7c98d17b.css",
+    "main.js": "/education-scholl-react/static/js/main.72736d5b.js",
+    "static/media/404-pages.jpg": "/education-scholl-react/static/media/404-pages.d295eeb315ee456e633f.jpg",
+    "static/media/IRANSansX-Light.woff": "/education-scholl-react/static/media/IRANSansX-Light.a3f7f08223387a84148e.woff",
+    "static/media/IRANSansX-DemiBold.woff": "/education-scholl-react/static/media/IRANSansX-DemiBold.c3cc9f7644a168ced03b.woff",
+    "static/media/IRANSansX-Bold.woff": "/education-scholl-react/static/media/IRANSansX-Bold.49c203f42289924b6199.woff",
+    "static/media/IRANSansX-Medium.woff": "/education-scholl-react/static/media/IRANSansX-Medium.bc01b240dd4b0f366b4c.woff",
+    "static/media/IRANSansX-Regular.woff": "/education-scholl-react/static/media/IRANSansX-Regular.b186360fe81d2aca8322.woff",
+    "static/media/IRANSansX-Thin.woff": "/education-scholl-react/static/media/IRANSansX-Thin.457903f377f1cf09030a.woff",
+    "index.html": "/education-scholl-react/index.html",
+    "main.7c98d17b.css.map": "/education-scholl-react/static/css/main.7c98d17b.css.map",
+    "main.72736d5b.js.map": "/education-scholl-react/static/js/main.72736d5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c98d17b.css",
+    "static/js/main.72736d5b.js"
+  ]
+}

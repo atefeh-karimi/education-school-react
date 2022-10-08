@@ -34,9 +34,7 @@ function About() {
         <h2>همکاران</h2>
         <div className="container team__container">
           {TeachersInfo.map((c) => {
-            return (
-              <Teacher key={c.id} name={c.name} expert={c.expert} url={c.img} />
-            );
+            return <Teacher key={c.id} {...c} />;
           })}
         </div>
       </section>
