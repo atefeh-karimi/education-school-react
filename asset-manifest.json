@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/education-school-react/static/css/main.a8f1ab44.css",
-    "main.js": "/education-school-react/static/js/main.8816415b.js",
+    "main.js": "/education-school-react/static/js/main.732ecdf4.js",
     "static/media/404-pages.jpg": "/education-school-react/static/media/404-pages.d295eeb315ee456e633f.jpg",
     "static/media/IRANSansX-Light.woff": "/education-school-react/static/media/IRANSansX-Light.a3f7f08223387a84148e.woff",
     "static/media/IRANSansX-DemiBold.woff": "/education-school-react/static/media/IRANSansX-DemiBold.c3cc9f7644a168ced03b.woff",
@@ -11,10 +11,10 @@
     "static/media/IRANSansX-Thin.woff": "/education-school-react/static/media/IRANSansX-Thin.457903f377f1cf09030a.woff",
     "index.html": "/education-school-react/index.html",
     "main.a8f1ab44.css.map": "/education-school-react/static/css/main.a8f1ab44.css.map",
-    "main.8816415b.js.map": "/education-school-react/static/js/main.8816415b.js.map"
+    "main.732ecdf4.js.map": "/education-school-react/static/js/main.732ecdf4.js.map"
   },
   "entrypoints": [
     "static/css/main.a8f1ab44.css",
-    "static/js/main.8816415b.js"
+    "static/js/main.732ecdf4.js"
   ]
 }
